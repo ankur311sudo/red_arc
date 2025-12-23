@@ -1,0 +1,50 @@
+@define-color selected-text #FF6188;
+@define-color text #e6e6e6;
+@define-color base #0d0d0d;
+@define-color border #e65c5c;
+@define-color foreground #f2f2f2;
+@define-color background #000000;
+@define-color hover #2a2a2a;
+@define-color accent #6699ff;
+
+window .box-wrapper {
+  background: alpha(@base, 0.5);
+  padding: 8px;
+  color: @text;
+  border: 0px solid @border;
+  margin: 0;
+}
+
+window .search-container {
+  background: transparent;
+  border-radius: 0;
+}
+
+window .placeholder {
+  opacity: 0.4;
+  color: @text;
+}
+
+window .input {
+  color: @accent;
+  padding: 0;
+  font-weight: 300;
+}
+
+child {
+  padding: 0 8px;
+  background: transparent;
+  border-radius: 0;
+  border-left: 2px solid transparent;
+  transition: all 160ms ease-in-out;
+}
+
+child:hover {
+  background: linear-gradient(90deg, alpha(@accent, 0.08), transparent 80%);
+  border-left: 2px solid alpha(@accent, 0.4);
+}
+
+child:selected {
+  background: linear-gradient(90deg, alpha(@accent, 0.2), transparent 100%);
+  border-left: 2px solid @accent;
+}
