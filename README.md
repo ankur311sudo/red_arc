@@ -1,3 +1,3 @@
-# Ayaka Theme
+# Arc_Red Theme
 
 
