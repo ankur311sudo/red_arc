@@ -1,27 +1,25 @@
-    /**
-    * @name Omarchy
-    * @author @bypass_
-    * @version 0.1.0
-    * @description Match Omarchy system theme.
-    * @source https://github.com/imbypass/base16-Discord
-    **/
-    @import url("https://imbypass.github.io/base16-discord/omarchy-discord.theme.css");
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
 
-    :root {
-        --color00: #000000;
-        --color01: #000000;
-        --color02: #000000;
-        --color03: #f0eaed;
-        --color04: #ffffff;
-        --color05: #ffffff;
-        --color06: #ffffff;
-        --color07: #ffffff;
-        --color08: #ffffff;
-        --color09: #D4A882;
-        --color10: #E6BA94;
-        --color11: #F29B9A;
-        --color12: #E8C099;
-        --color13: #D9A56C;
-        --color14: #D1B399;
-        --color15: #D4A882;
-    }
+:root{
+     --background: url('https://images.alphacoders.com/632/632525.png');
+     --activetext-colour: white;
+ 
+     --primary1-colour: red;
+     --primary2-colour: rgba(255,0,0,0.5);
+     --primary3-colour: rgba(100,0,0,0.6);
+     --primary4-colour: rgba(100,0,0,0.4);
+ 
+     --secondary1-colour: rgba(50,50,50,0.3);
+     --secondary2-colour: rgba(100,100,100,0.5);
+     --secondary3-colour: rgba(0,0,0,0.6);
+     --secondary4-colour: rgba(0,0,0,0.3);
+
+}
+  
+/*
+Theme Owned and Made by VaporousCreeper#9514
+  
+Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+
+The items above are not owned by me, They go to there respected owners 
+*/
